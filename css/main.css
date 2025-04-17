@@ -1,0 +1,302 @@
+*{
+    box-sizing:border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+ 
+}
+
+.conteiner
+{
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;  
+
+}
+
+
+
+.none{
+
+    display: none !important;
+}
+
+
+.header{
+    position: relative;
+        /*Позиция на экране */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+            /*Фон */
+    width: 100%;  
+    height: 100vh;
+    background-color: #556983 ;
+    background-image: url("/image/header/header-bg.jpg" );
+    background-size: cover;
+    background-position: center;
+
+   
+
+}
+
+
+.header-title
+{
+/* KPK TEAM */
+    margin: 0;
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 130%;
+    text-align: center;
+
+    color: #ffffff;
+
+
+}
+
+.header-subtitle
+{
+/* Аналитики, Програмисты и Тестеровщики */
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+/* Стрелка */
+.header-arrow
+{
+   width: 48px;
+   height: 48px;
+   /* background-color: red; */
+   position: absolute;
+    right: 0;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 0) ;
+   
+}
+
+.O_nas
+{
+    margin: 70px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+
+    
+}
+
+.text
+{
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+
+   
+}
+
+/* portfplip */
+ .portfplip
+ {
+    
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 115px;
+    font-size: 16px;
+    
+ }
+
+ .portfplip-heading
+ {
+    /* Портфолио */
+    margin: 0;
+    margin-bottom: 70px;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+
+ }
+
+ .portfolio-cards-wrapper
+ {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+ }
+
+
+
+.card
+{
+    padding: 20px;
+    background-color: #FFFFFF;
+    max-width: 540px;
+    margin-bottom: 30px;
+    box-shadow: 0px 10px 40px rgba(126, 155,189, 0.35);
+    transition: 0.3s;
+
+}
+
+.card:last-child, .card:nth-last-child(2)
+{
+    margin-bottom: 0;
+}
+
+
+
+.cars-img
+ {
+  margin-bottom: 20px;
+
+ }
+
+
+ .cars-title
+ {
+/* сайт кпк */
+    margin: 0;
+    margin-bottom: 13px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000000;
+
+ }
+
+ .card p 
+ {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #000000;
+    margin: 0;
+    
+
+ }
+
+
+ .card:hover
+ {
+ transform: scale(1.15)
+ }
+
+ .footer
+ {
+    padding-top: 45px;
+    padding-bottom: 130px;
+    background: #58007a;
+    color: white;
+
+
+ }
+
+ .footer-row
+ {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+
+ .footer-coperait
+ {
+    color: #ffffff;
+    line-height: 130%;
+    max-width: 350;
+    flex-grow: 1;
+
+ }
+
+ .footer-copyright-name
+ {
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 15px;
+ }
+
+ .footer-copyright p 
+ {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 600px
+ }
+
+ .footer-icons
+ {
+    max-width: 350;
+    flex-grow: 1;
+    
+ }
+
+ .footer-icons p 
+ {
+   margin-top: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+ }
+
+ .footer-icons-row
+ {
+    display: flex;
+    align-items: center; 
+ }
+
+ .footer-icons-row > * +  {
+    margin-left: 30px;
+ }
+
+ .footer-contacts
+ {
+    max-width: 350;
+    flex-grow: 1;
+ }
+
+ .footer-button
+ {
+    display: inline-block;
+    height: 50px; 
+    padding-left: 30px; 
+    padding-right: 30px;
+    padding-top:11px ;
+
+    border: 3px solid white;
+    border-radius: 50px;
+
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+ }
+
+ .footer-contacts p
+ {
+    margin: 15px 0;
+    font-size: 16px;
+    line-height: 130%;
+    color: #ffffff;
+ }
