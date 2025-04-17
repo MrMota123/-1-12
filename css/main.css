@@ -273,6 +273,7 @@ body {
  {
     max-width: 350;
     flex-grow: 1;
+    flex-grow: 1;
  }
 
  .footer-button
